@@ -1,4 +1,4 @@
-import './App.css';
+import App from './App.css';
 import contacts from "./data.js";
 import Card from './Card';
 import emojis from "./data.js"
@@ -6,17 +6,7 @@ import emojis from "./data.js"
 
 
 
-function createCard(contact) {
-    return ( < Card key = { contact.id }
-        name = { contact.name.first }
-        img = { contact.picture.medium }
-        tel = { contact.phone }
-        email = { contact.email }
-        location = { contact.location.country }
 
-        />
-    );
-}
 
 // const sampleEmoji = {
 //     "title": "Grinning",
@@ -25,17 +15,10 @@ function createCard(contact) {
 // };
 
 
-// function App() {
-//     return ( <
-//         div className = "App" >
-//         <
-//         h1 > Emojis < /h1> <
-//         div className = "row" >
+function app() {
+    return ( <
+        div className
+    )
+}
 
-//         <
-//         /div> < /
-//         div >
-//     );
-// }
-
-// export default App;
+export default App;
