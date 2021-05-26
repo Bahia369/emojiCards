@@ -1,7 +1,12 @@
 import React from "react";
 
-const Emoji = ({ face }) => {
+const emojis = ({ props }) => {
   <div className="Emoji"></div>;
+
+<h2>{props.}</h2>
+
+
+
 };
 
-export default Emoji;
+export default emojis;

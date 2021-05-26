@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import emojis from "./data.js";
 
 const sampleEmoji = {
   title: "Grinning",
@@ -10,9 +9,13 @@ const sampleEmoji = {
 
 function App() {
   return (
+    
     <div className="App">
       <h1>Emojis</h1>
+      <h1>IM A CODER</h1>
+     
       <div className="row"></div>
+      
     </div>
   );
 }

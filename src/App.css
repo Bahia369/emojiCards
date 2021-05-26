@@ -7,34 +7,34 @@
   display: flex;
   flex-wrap: wrap;
   max-width: 100%;
-  padding:0.1rem;
+  padding: 0.1rem;
 }
 
 .emoji {
-    font-size: 60px;
+  font-size: 60px;
 }
 
 .card {
-    align-items: center;
-    text-align: left;
-    border: 0.125rem solid #ddd;
-    border-radius: 0.25rem;
-    box-shadow: 3px 3px 3px #eee;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 20%;
+  align-items: center;
+  text-align: left;
+  border: 0.125rem solid #ddd;
+  border-radius: 0.25rem;
+  box-shadow: 3px 3px 3px #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
 }
 
 .card-emoji {
-    background-color: #ffffcc;
-    margin: 0.5rem;
-    padding: 1rem;
+  background-color: #ffffcc;
+  margin: 0.5rem;
+  padding: 1rem;
 }
 
 .card-keyword {
-    background-color: #eeffee;
-    margin: 0.2rem;
-    padding: 0.2rem;
-    width: 20%;
+  background-color: #eeffee;
+  margin: 0.2rem;
+  padding: 0.2rem;
+  width: 20%;
 }
