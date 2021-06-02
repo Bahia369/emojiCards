@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <h1>Emojis</h1>
 
-      <div className="row"></div>
+      <div className="row">{}</div>
     </div>
   );
 }
