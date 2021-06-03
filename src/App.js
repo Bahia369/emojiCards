@@ -8,7 +8,7 @@ const sampleEmoji = {
   keywords: "grinning face happy smiley emotion emotion",
 };
 
-function App() {
+function App(sampleEmoji) {
   console.log(sampleEmoji);
   return (
     <div className="App">
